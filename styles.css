@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.hero {
+    background-image: url('https://via.placeholder.com/1600x600'); /* Replace with your own image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
